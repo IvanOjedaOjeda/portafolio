@@ -17,7 +17,8 @@ export default function ProyectosPage() {
   return (
     <>
       <div>
-        <h1 className={title()}>Estos son mis proyectos</h1>
+        <h1 className={title({ color: "blue" })}       >Estos son mis proyectos</h1>
+        
       </div>
       <Accordion>
         <AccordionItem key="1" aria-label="Accordion 1" title="Proyecto Pagina Web responsiva con HTML">

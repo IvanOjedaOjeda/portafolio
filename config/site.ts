@@ -10,7 +10,7 @@ export const siteConfig = {
     },
 
     {
-      label: "Quien soy",
+      label: "Sobre mi",
       href: "/sobre",
     },
     
