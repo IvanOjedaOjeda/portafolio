@@ -1,34 +1,41 @@
 "use client"
 import React from "react";
-import {Accordion, AccordionItem} from "@nextui-org/react";
-//import { Accordion, AccordionItem } from "@nextui-org/accordion";
+import { Accordion, AccordionItem } from "@nextui-org/react";
+
 
 import { title } from "@/components/primitives";
 
 
 export default function ProyectosPage() {
   const defaultContent1 =
-    "Mi primera chamba";
-    const defaultContent2 =
-    "Mi segunda chamba";
-    const defaultContent3=
-    "Mi tercera chamba";
+    "En este proyecto encontrarán: Mensaje del Negocio, un breve catalogo de los productos. La pagina es completamente responsiva. En este trabajo aprendí a ubicar distintos elementos como por ejemplo, header, jumbotron, footer. Los detalles puedes verlos en la sección Proyectos.  ";
+  const defaultContent2 =
+    "En este proyecto, encontrarán un CRUD que contiene una aplicación para crear productos, borrarlos, modificarlos y ver todo lo creado. En la sección Proyectos podrán ver mas detalles.";
+  const defaultContent3 =
+    "En este proyecto, utilizamos la librería de datos llamada 'Chart.js'. Adicional a lo anterior, hicimos una conexi+on a través de un API a una BBDD controlada por terceros. El ambiente de desarrollo utilizado fue 'Node.js'. Adicionalmente, usamos algunos elementos de JavaScript";
+
+    const defaultContent4 =
+    "Para este proyecto, fue necesario aprender a utilizar React y Firebase. Además, aplicamos herramientas como 'VITE', componentes 'Hooks', CSS"
+    
+const defaultContent5= "El objetivo de este proyecto fue desarrollar una aplicación FULLSTACK integrando MONGO, EXPRESS, REACT Y NODEJS, en el cual se comercialice un producto vía pagos online. Se utilizará PayPal Sandbox para simular los pagos. Incluir autenticación como parte del conjunto de características."
 
   return (
     <>
-      <div>
-        <h1 className={title({ color: "blue" })}       >Estos son mis proyectos</h1>
-        
-      </div>
-      <Accordion>
-        <AccordionItem key="1" aria-label="Accordion 1" title="Proyecto Pagina Web responsiva con HTML">
+      <Accordion variant="splitted">
+        <AccordionItem key="1" aria-label="Accordion 1" title="PROYECTO 1: Landing de Negocio">
           {defaultContent1}
         </AccordionItem>
-        <AccordionItem key="2" aria-label="Accordion 2" title="Proyecto Ferretería don Chuma">
+        <AccordionItem key="2" aria-label="Accordion 2" title="Proyecto 2: Aplicación CRUD">
           {defaultContent2}
         </AccordionItem>
-        <AccordionItem key="3" aria-label="Accordion 3" title="Proyecto API">
+        <AccordionItem key="3" aria-label="Accordion 3" title="Proyecto 3: Tablero de Datos (Dashboard)">
           {defaultContent3}
+        </AccordionItem>
+        <AccordionItem key="4" arial-label="Accordion 4" title="Proyecto 4: Aplicación 'Restaurante' ">
+        {defaultContent4}          
+        </AccordionItem>
+        <AccordionItem key="5" arial-label="Accordion 5" title="Proyecto 5: Aplicación de Comercio Electrónico">
+
         </AccordionItem>
       </Accordion>
     </>
