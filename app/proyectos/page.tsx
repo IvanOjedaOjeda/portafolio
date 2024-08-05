@@ -17,15 +17,15 @@ export default function ProyectosPage() {
     const defaultContent4 =
     "Para este proyecto, fue necesario aprender a utilizar React y Firebase. Además, aplicamos herramientas como 'VITE', componentes 'Hooks', CSS"
     
-const defaultContent5= "El objetivo de este proyecto fue desarrollar una aplicación FULLSTACK integrando MONGO, EXPRESS, REACT Y NODEJS, en el cual se comercialice un producto vía pagos online. Se utilizará PayPal Sandbox para simular los pagos. Incluir autenticación como parte del conjunto de características."
+const defaultContent5= "El objetivo de este proyecto fue desarrollar una aplicación FULLSTACK integrando MONGO, EXPRESS, REACT Y NODEJS, en el cual se comercializan cuadros vía pagos online. Se utilizó Mercado Libre para simular los pagos e incluí autenticación como parte del conjunto de características."
 
   return (
     <>
       <Accordion variant="splitted">
-        <AccordionItem key="1" aria-label="Accordion 1" title="PROYECTO 1: Landing de Negocio">
+        <AccordionItem key="1" aria-label="Accordion 1" title="Proyecto 1: 'Landing de Negocio'">
           {defaultContent1}
         </AccordionItem>
-        <AccordionItem key="2" aria-label="Accordion 2" title="Proyecto 2: Aplicación CRUD">
+        <AccordionItem key="2" aria-label="Accordion 2" title="Proyecto 2: Aplicación 'CRUD'">
           {defaultContent2}
         </AccordionItem>
         <AccordionItem key="3" aria-label="Accordion 3" title="Proyecto 3: Tablero de Datos (Dashboard)">
@@ -35,7 +35,7 @@ const defaultContent5= "El objetivo de este proyecto fue desarrollar una aplicac
         {defaultContent4}          
         </AccordionItem>
         <AccordionItem key="5" arial-label="Accordion 5" title="Proyecto 5: Aplicación de Comercio Electrónico">
-
+        {defaultContent5} 
         </AccordionItem>
       </Accordion>
     </>

@@ -30,7 +30,7 @@ export default function Home() {
           })}
           href={siteConfig.links.docs}
         >
-          Revisa mi CV
+          Revisa mis Proyectos
         </Link>
         <Link
           isExternal

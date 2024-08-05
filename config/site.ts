@@ -59,7 +59,7 @@ export const siteConfig = {
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    sponsor: "https://www.udd.cl/",
     LinkedIn: "https://www.linkedin.com/in/ieoo"
   },
 };
