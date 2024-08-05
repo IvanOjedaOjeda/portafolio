@@ -56,7 +56,7 @@ export const siteConfig = {
   ],
   links: {
     github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
+    twitter: "https://twitter.com/i_ojeda",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
     sponsor: "https://www.udd.cl/",
