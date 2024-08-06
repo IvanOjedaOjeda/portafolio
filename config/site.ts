@@ -27,37 +27,22 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Inicio",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Sobre mí",
+      href: "/sobre",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Proyectos",
+      href: "/proyectos",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "URL Proyectos",
+      href: "/url_proyectos",
     },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+   
   ],
   links: {
     github: "https://github.com/IvanOjedaOjeda",
