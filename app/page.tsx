@@ -6,6 +6,7 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { LinkedinIcon } from "@/components/icons";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <h1 className={title()}>Bienvenidos &nbsp;</h1>
         <br />
         <h1 className={title({ color: "blue" })}>a mi sitio WEB&nbsp;</h1>
-        
+
         <h2 className={subtitle({ class: "mt-4" })}>
           Soy Iván Ojeda, Desarrollador WEB Full-Stack
         </h2>
@@ -40,6 +41,14 @@ export default function Home() {
           <GithubIcon size={20} />
           GitHub
         </Link>
+        <Link
+          isExternal
+          className={buttonStyles({ variant: "bordered", radius: "full" })}
+          href={siteConfig.links.linkedin}        >
+          <LinkedinIcon size={20} />
+          Linkedin
+        </Link>
+
       </div>
 
       {/* <div className="mt-8">

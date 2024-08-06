@@ -8,9 +8,9 @@ import { title } from "@/components/primitives";
 
 export default function ProyectosPage() {
   const defaultContent1 =
-    "En este proyecto encontrarán: Mensaje del Negocio, un breve catalogo de los productos. La pagina es completamente responsiva. En este trabajo aprendí a ubicar distintos elementos como por ejemplo, header, jumbotron, footer. Los detalles puedes verlos en la sección Proyectos.  ";
+    "En este proyecto encontrarán: Mensaje del Negocio, un breve catalogo de los productos. La pagina es completamente responsiva. En este trabajo aprendí a ubicar distintos elementos como por ejemplo, header, jumbotron, footer. Los detalles puedes verlos en la seccion URL Proyectos";
   const defaultContent2 =
-    "En este proyecto, encontrarán un CRUD que contiene una aplicación para crear productos, borrarlos, modificarlos y ver todo lo creado. En la sección Proyectos podrán ver mas detalles.";
+    "En este proyecto, encontrarán un CRUD que contiene una aplicación para crear productos, borrarlos, modificarlos y ver todo lo creado. En la sección URL Proyectos podrán ver mas detalles.";
   const defaultContent3 =
     "En este proyecto, utilizamos la librería de datos llamada 'Chart.js'. Adicional a lo anterior, hicimos una conexi+on a través de un API a una BBDD controlada por terceros. El ambiente de desarrollo utilizado fue 'Node.js'. Adicionalmente, usamos algunos elementos de JavaScript";
 

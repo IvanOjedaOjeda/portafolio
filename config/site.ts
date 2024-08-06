@@ -19,6 +19,11 @@ export const siteConfig = {
       label: "Proyectos",
       href: "/proyectos",
     },
+
+    {
+      label: "URL Proyectos",
+      href: "/url_proyectos",
+    },
   ],
   navMenuItems: [
     {
@@ -55,11 +60,11 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/nextui-org/nextui",
+    github: "https://github.com/IvanOjedaOjeda",
     twitter: "https://twitter.com/i_ojeda",
     docs: "https://nextui.org",
     discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://www.udd.cl/",
-    LinkedIn: "https://www.linkedin.com/in/ieoo"
+    sponsor: "https://udd.cl/",
+    linkedin: "https://linkedin.com/in/ieoo"
   },
 };

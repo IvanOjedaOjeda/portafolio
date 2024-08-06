@@ -89,7 +89,7 @@ export const GithubIcon: React.FC<IconSvgProps> = ({
   );
 };
 
-export const LinkedInIcon: React.FC<IconSvgProps> = ({
+export const LinkedinIcon: React.FC<IconSvgProps> = ({
   size = 24,
   width,
   height,
