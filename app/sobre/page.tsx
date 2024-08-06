@@ -7,55 +7,45 @@ import { title } from "@/components/primitives";
 
 export default function ProyectosPage() {
     const [isFollowed, setIsFollowed] = React.useState(false);
+    const people = [
+      {
+        name: 'Iván Ojeda',
+        role: 'FullStack Development',
+        imageUrl:
+          'perfil.jpg',
+      },
+      // More people...
+    ]
 
     return (
         <>
-            <div>
-                <h1 className={title()}>Quien soy</h1>
-            </div>
+           
+            <div className="bg-white py-24 sm:py-32">
+      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3 justify-center">
+        <div className="max-w-2xl justify-center">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">Objetivos Profesionales</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600 text-justify">
+          Profesional con amplia experiencia liderando equipos comerciales y técnicos, responsable de la venta de productos 
+y servicios a empresas públicas y privadas. Orientado a la formación de equipos de alto desempeño.
+Full Stack Development - Scrum Master Certificado.
 
-<Card className="w-1/2 h-48 mt-10 flex justify-center">
-<CardHeader className="justify-between">
-  <div className="flex gap-5">
-    <Avatar isBordered radius="full" size="md" src="perfil.jpg" />
-    <div className="flex flex-col gap-1 items-start justify-center">
-      <h4 className="text-small font-semibold leading-none text-default-600">Iván Ojeda</h4>
-      <h5 className="text-small tracking-tight text-default-400">@ivan_eoo</h5>
+          </p>
+        </div>
+        <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          {people.map((person) => (
+            <li key={person.name}>
+              <div className="float-right">
+                <img alt="foto" src={person.imageUrl} className="h-48 w-48 rounded-full float" />
+                <div>
+                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900 flex justify-center">{person.name}</h3>
+                  <p className="text-sm font-semibold leading-6 text-indigo-600 flex justify-center">{person.role}</p>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
-  </div>
-  <Button
-    className={isFollowed ? "bg-transparent text-foreground border-default-200" : ""}
-    color="primary"
-    radius="full"
-    size="sm"
-    variant={isFollowed ? "bordered" : "solid"}
-    onPress={() => setIsFollowed(!isFollowed)}
-    >
-    {isFollowed ? "Unfollow" : "Follow"}
-  </Button>
-</CardHeader>
-<CardBody className="px-3 py-0 text-small text-default-400">
-  <p>
-    Frontend developer and UI/UX enthusiast. Join me on this coding adventure!
-  </p>
-  <span className="pt-2">
-    #FrontendWithZoey 
-    <span className="py-2" aria-label="computer" role="img">
-      💻
-    </span>
-  </span>
-</CardBody>
-<CardFooter className="gap-3">
-  <div className="flex gap-1">
-    <p className="font-semibold text-default-400 text-small">4</p>
-    <p className=" text-default-400 text-small">Following</p>
-  </div>
-  <div className="flex gap-1">
-    <p className="font-semibold text-default-400 text-small">97.1K</p>
-    <p className="text-default-400 text-small">Followers</p>
-  </div>
-</CardFooter>
-</Card>
       </>
 
        
