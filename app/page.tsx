@@ -7,6 +7,9 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import { LinkedinIcon } from "@/components/icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Home() {
   return (
@@ -29,21 +32,15 @@ export default function Home() {
             radius: "full",
             variant: "shadow",
           })}
-          href={siteConfig.links.docs}
-        >
-          Revisa mis Proyectos
-        </Link>
-        <Link
-          isExternal
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
-        >
+          href={siteConfig.links.docs}        >
           <GithubIcon size={20} />
           GitHub
         </Link>
+
         <Link
           isExternal
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
+          className={buttonStyles({ variant: "bordered",  radius: "full" 
+          })}
           href={siteConfig.links.linkedin}        >
           <LinkedinIcon size={20} />
           Linkedin
