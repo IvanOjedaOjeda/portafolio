@@ -91,12 +91,11 @@ export const Navbar = () => {
             <GithubIcon className="text-default-500" />
           </Link>
           <Link isExternal aria-label="Linkedin" href={siteConfig.links.linkedin}>
-            <LinkedinIcon className="text-default-500" />
+            <LinkedinIcon className="text-default-500 opacity-80" />
           </Link>
 
           <ThemeSwitch />
         </NavbarItem>
-        <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
         <NavbarItem className="hidden md:flex">
           <Button
             isExternal
