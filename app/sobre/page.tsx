@@ -32,7 +32,7 @@ Full Stack Development - Scrum Master Certificado.
           </p>
         </div>
 
-        <ul aria-label="Lista de personas" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+        <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {people.map((person) => (
             <li key={person.name}>
               <div className="float-right">
